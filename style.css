@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.75)), url('images/044.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:contain;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo{
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+span{
+    font-family: 'teko';
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+span .logo-first-letter{
+    color: rgb(255, 120, 3);
+    font-size: 60px;
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin-right: 10%;
+}
+
+nav ul li a{
+    /* color: rgb(254, 137, 35); */
+    color: #fff;
+    font-family: "Teko", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: 0.3s;
+}
+/* 
+.active{
+    color: rgb(255, 120, 3);
+} */
+
+
+nav ul li a:hover{
+    color: rgb(255, 120, 3);
+}
+
+/* ----------------------- */
+
+.content{
+    margin: 10% 0 0;
+    text-align: center;
+    font-family: "Teko", "sans-serif";
+}
+
+.content h1{
+    font-size: 90px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(255, 120, 3);
+}
+
+.content span{
+    
+    font-size: 90px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.content p{
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.buttons{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.buttons .btn{
+    font-family: "Teko", "sans-serif";
+    font-size: 25px;
+    padding:5px 15px;
+    background-color: rgb(255, 119, 0);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    margin-right: 10px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.buttons .btn:hover{
+    background-color: rgb(247, 155, 74);
+}
+
+.buttons .sub{
+    background-color: #fff;
+    color: rgb(254, 137, 35);
+    border:3px solid rgb(255, 120, 3);
+}
+
+.buttons .sub:hover{
+    /* background-color: none; */
+    background-color: rgb(255, 120, 3);
+    color: #fff;
+}

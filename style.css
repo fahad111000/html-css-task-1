@@ -78,7 +78,7 @@ nav ul li a:hover{
 }
 
 .content h1{
-    font-size: 90px;
+    font-size: 70px;
     font-weight: 600;
     text-transform: uppercase;
     color: rgb(255, 120, 3);
@@ -86,7 +86,7 @@ nav ul li a:hover{
 
 .content span{
     
-    font-size: 90px;
+    font-size: 70px;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -123,7 +123,7 @@ nav ul li a:hover{
 .buttons .sub{
     background-color: #fff;
     color: rgb(254, 137, 35);
-    border:3px solid rgb(255, 120, 3);
+    border:2px solid rgb(255, 120, 3);
 }
 
 .buttons .sub:hover{
